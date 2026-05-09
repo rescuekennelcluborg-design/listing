@@ -1,9 +1,10 @@
 {
-  "shelter_name": "",
-  "city": "",
-  "county": "",
-  "website": "",
-  "intake_type": "",
+  "shelter_name": "Yellowstone Valley Animal Shelter",
+  "city": "Billings",
+  "county": "Yellowstone County",
+  "website": "https://yvas.org",
+  "intake_type": "open_admission",
+
   "breed_categories": [
     "bulldog",
     "pit_bull",
@@ -13,6 +14,7 @@
     "mixed_breed",
     "unknown"
   ],
+
   "breed_aliases": {
     "pit bull": "pit_bull",
     "pitbull": "pit_bull",
@@ -38,5 +40,15 @@
     "unknown": "unknown",
     "unspecified": "unknown"
   },
-  "dogs": []
+
+  "dogs": [
+    {
+      "name": "Test Dog",
+      "age": "2 years",
+      "sex": "Female",
+      "breed_raw": "Pit Bull Mix",
+      "breed_normalized": "pit_bull",
+      "image_original": "https://placedog.net/800/800"
+    }
+  ]
 }
